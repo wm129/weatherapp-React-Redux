@@ -4,13 +4,13 @@ fetchRanking、リクエスト開始、レスポンス受しん、リクエス�
 を生成する物を定義する
 
  */
-//import fetchJsonp from 'fetch-jsonp';
-//import qs from 'qs';
+import fetchJsonp from 'fetch-jsonp';
+import qs from 'qs';
 
-/*
-const API_URL ='api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}'
+
+const API_URL ='api.openweathermap.org/data/2.5/weather?id=1850144&appid=6e2e4c87b83b612582cf62cc0a339c84';
 //ここに取得したAPIKEYを記述する。
-const API_KEY = 'APIKEY...'
+const API_KEY = '6e2e4c87b83b612582cf62cc0a339c84'
 //リクエスト開始
 const startRequest = cityid =>({
     type: 'START_REQUEST'
@@ -48,4 +48,4 @@ export const fetchRank = cityid => {
         dispatch(finisihRequest(cityid));
     }; 
 };
- */
+ 
