@@ -1,6 +1,6 @@
 import React from 'react';
 import Proptype from 'prop-types';
-
+/*
 export default function Rank({cityid}) {
 //風速をAPI情報から取得したい
 return (
@@ -21,6 +21,7 @@ Ranking.defaultProps = {
     // のちに変更する部分
     cityid: '1'
 };
+*/
 /*ライフサイクルメソッドを使う場合　classでかく */
 
 export default class Rank extends React.Component {
