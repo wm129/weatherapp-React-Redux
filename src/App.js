@@ -1,4 +1,4 @@
-import React,{ Component } from 'react';
+import React,{ component } from 'react';
 import {Route, Link} from 'react-router-dom';
 import Rank from './components/Rank';
 
@@ -14,7 +14,7 @@ const App = () => {
 </ul>
 </div>
 <Route path="/all" component={Rank} />
-{/*
+{/*s
 2つ目、3つ目のルートは下のようにかく
 
 <Route 

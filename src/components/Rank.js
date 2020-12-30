@@ -47,10 +47,10 @@ export default class Rank extends React.Component {
     }
 }
 Rank.Proptype = {
-    cityid: Proptypes.string,
+    cityid: Proptypes.number,
     onMount: PropTypes.func.isRequired,
     onUpdate: PropTypes.func.isRequired
 };
 Rnak.defaultProps = {
-    cityid= '1'
+    cityid: '1850144'
 };
