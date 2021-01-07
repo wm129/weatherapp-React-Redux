@@ -5,7 +5,8 @@ import thunk from "redux-thunk";
 //redux 
 import { applyMiddleware, createStore } from "redux";
 
-import Reducers from "../rereducers/index";
+import Reducers from "../rereducers/reducers";
+
 
 // ミドルウェア
 const middleware= applyMiddleware(logger, thunk);
